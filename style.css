@@ -1,0 +1,54 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('cards/background.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+  
+  #myForm {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #inputNumber {
+    height: 30px;
+  }
+  
+  #submitStartingCards {
+    height: 30px;
+  }
+  
+  #score {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  
+  #memory-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #memory-cards > div {
+    background-image: url("cards/card-back.png");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  #memory-cards > div:hover {
+    transform: scale(1.1);
+  }
+
+  #timer{
+    font-size: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+  }
+  
