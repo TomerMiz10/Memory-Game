@@ -102,8 +102,8 @@ function setImageToCardBack(newCard) {
 
 
 function updateScores(){
-  score1Div.textContent = "Player 1: "+player1Score;
-  score2Div.textContent = "Player 2: "+player2Score;
+  score1Div.textContent = "Player 1: "+player1Score + " points";
+  score2Div.textContent = "Player 2: "+player2Score  + " points";
 }
 
 // Remove the form element and its children from the DOM. 

@@ -19,9 +19,10 @@ body {
     height: 30px;
   }
   
-  #score {
-    font-size: 35px;
-    margin-bottom: 20px;
+  #score, #score1, #score2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: whitesmoke;
   }
   
   #memory-cards {
@@ -46,9 +47,9 @@ body {
     transform: scale(1.1);
   }
 
-  #timer{
-    font-size: 20px;
-    margin-bottom: 20px;
-    height: 30px;
+  #timer, #result{
+    font-size: 35px;
+    margin-bottom: 25px;
+    height: 35px;
   }
   
